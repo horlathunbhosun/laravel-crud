@@ -42,7 +42,7 @@ class ProductController extends Controller
         $request->validate([
             'first_name' => 'required',
             'last_name' => 'required',
-            'email' => 'required'
+            'email' => 'required|email'
 
         ]);
 
@@ -110,7 +110,7 @@ class ProductController extends Controller
         $request->validate([
             'first_name' => 'required',
             'last_name' => 'required',
-            'email' => 'required'
+            'email' => 'required|email'
 
         ]);
 
