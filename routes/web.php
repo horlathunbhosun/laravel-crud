@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', "ProductController@indexscl");
+Route::get('/', "ProductController@index");
 
 //Route::get('/', function(){
 //   return view('product.layout');
